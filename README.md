@@ -18,20 +18,26 @@ A slick and interactive YouTube Video Downloader built with Python and Streamlit
 |------------------|----------------|-------------------|
 | ![Startpage](screenshots/Startpage.png) | ![Getvideo](screenshots/Getvideo.png) | ![Progress](screenshots/Progress.png) |
 
-## How to Play 🎮
-1. Roll the dice to accumulate points
-2. Hold to bank your points and end your turn
-3. Avoid rolling a 1 or you lose your turn points
-4. First to reach 100 points wins!
-5. Computer plays strategically - stops at 20+ points per turn
+- Initial Screen: Start here by entering a YouTube URL.
+- Video Details: See the thumbnail, title, and stats before downloading.
+- Download Complete: Progress bar full, ready to save or clear!
+
+## How to Use 🎥
+1. Enter a valid YouTube URL in the input field.
+2. Check out the video details (thumbnail, title, channel, etc.).
+3. Hit "Download Video" and watch the progress bar roll.
+4. Once done, click "Save Video to Device" to grab the file.
+5. Use "Clear Download" to reset for the next video.
+Note: Videos over 20 minutes might take a bit longer to download.
 
 ## Tech Stack 🛠️
 - **Frontend**: Streamlit
 - **Backend**: Python 3
-- **Key Modules**: 
-  - `streamlit` for UI
-  - `random` for dice rolls
-  - `time` for turn simulation
+- **Key Libraries**: 
+  - `streamlit` for the UI
+  - `pytubefix` for YouTube video downloading
+  - `io.BytesIO`  for file buffering
+  - `time`   for duration formatting
 
 ## Installation ⚙️
 1. Clone repository:
