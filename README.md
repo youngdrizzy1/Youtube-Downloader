@@ -42,13 +42,13 @@ Note: Videos over 20 minutes might take a bit longer to download.
 ## Installation ⚙️
 1. Clone repository:
 ```bash
-git clone https://github.com/youngdrizzy1/Pig-Game
-cd Pig-Game
+git clone https://github.com/youngdrizzy1/Youtube-Downloader
+cd Youtube-Downloader
 ```
 
 2. Install dependencies:
 ```bash
-pip install streamlit
+pip install streamlit pytubefix
 ```
 
 3. Run the application:
@@ -57,7 +57,11 @@ streamlit run app.py
 ```
 
 ## Live Demo 🌐
-Try the live version: [Pig-Game-App](https://pig-game.streamlit.app/)
+Check out the live version: [Youtube-Downloader-App](https://youtube-downloader0.streamlit.app/)
+- Heads Up: The app works perfectly locally but may hit errors on Streamlit Cloud due to pytubefix or cloud restrictions. I’m on it—suggestions welcome!
+
+## Known Issues ⚠️
+Runs smoothly on local devices but faces deployment hiccups on Streamlit Cloud. Likely a pytubefix compatibility or network issue—help appreciated!
 
 ## Connect with Me 👋
 [LinkedIn](https://www.linkedin.com/in/eromosele-itoya/) | 
